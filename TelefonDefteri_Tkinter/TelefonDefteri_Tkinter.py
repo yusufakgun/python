@@ -19,7 +19,7 @@ class TelefonDefteri():
             dosya = open(self.adres, kip)
             return dosya
         else:
-            showerror("Hata","Belirtilen adreste veri kaynağı bulunamıyor.")
+            showerror("Hata","Belirtilen adreste veri kaynağı bulunamıyor!")
             raise Exception
 
     def rehberBilgisiAlma(self):
