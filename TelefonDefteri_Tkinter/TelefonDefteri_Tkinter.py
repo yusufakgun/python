@@ -11,7 +11,7 @@ class TelefonDefteri():
     __secimYonTercih = 0
     __secimTurTercih = 0
 
-    def __init__(self, adres=os.getcwd() + os.sep + "TelefonDefteri.csv"):
+    def __init__(self, adres = os.getcwd() + os.sep +"TelefonDefteri_Tkinter\\TelefonDefteri.csv"):
         self.adres = adres
 
     def dosyaAc(self, kip="r"):
